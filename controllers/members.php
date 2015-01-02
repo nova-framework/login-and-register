@@ -140,7 +140,7 @@ class Members extends Controller {
 			Url::redirect('members/login');
 		}
 
-		$data['title'] = 'Memebers Page';
+		$data['title'] = 'Members Page';
 
 		$this->_view->rendertemplate('header',$data);
 		$this->_view->render('members/memberspage',$data);
